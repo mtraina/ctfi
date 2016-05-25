@@ -9,3 +9,13 @@ nonstandard behavior emulation of Navigator 4 and IE 5
 Only a small number of quirks are implemented
 * *<a name="full-standard-mode"></a>Full standard mode*  
 the behavior is the one described by the HTML and CSS specifications.
+
+**Difference between HTML and XHTML**  
+XHTML is actually an XML document using the HTML tags. It adds constraints for making the document well formatted, e.g. opening and closing tags for all the elements, lower case the name of the elements and attributes, DOCTYPE is mandatory and also the tags
+
+```html
+<html>, <head>, <title>, <body>
+```
+
+**Problems with serving pages as application/xhtml+xml**  
+When requesting the document we add the content-type to the header of the request, some browser don't interpretate this value property and download the document instead of visualizing.
