@@ -24,3 +24,6 @@ When requesting the document we add the content-type to the header of the reques
 * Cookies are used to store informations on the browser for a specific domain and they are sent for every request to that domain. You can only save strings.
 * SessionStorage and localStorage let you save informations as JSON and the size of this space depends on the browser, typically few tens of MB.
 * SessionStorage differs from localStorage for the fact that the former will be deleted after the browser window will be closed.
+
+**Progressive rendering**
+Techniques used to render the page as quickly as possible, for example lazy loading of images and loading first the minimum css/content/scripts needed for visualizing the page.
