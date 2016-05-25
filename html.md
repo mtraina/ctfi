@@ -19,3 +19,8 @@ XHTML is actually an XML document using the HTML tags. It adds constraints for m
 
 **Problems with serving pages as application/xhtml+xml**  
 When requesting the document we add the content-type to the header of the request, some browser don't interpretate this value property and download the document instead of visualizing.
+
+**Difference among cookie, local storage and session storage**
+* Cookies are used to store informations on the browser for a specific domain and they are sent for every request to that domain. You can only save strings.
+* SessionStorage and localStorage let you save informations as JSON and the size of this space depends on the browser, typically few tens of MB.
+* SessionStorage differs from localStorage for the fact that the former will be deleted after the browser window will be closed.
