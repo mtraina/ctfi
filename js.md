@@ -1,5 +1,5 @@
 **AJAX**  
-AJAX, asynchronous javascript and XML, isa way to communicate with the server without reloading the page. Typically the browser makes a request to the server using XMLHttpRequest, when the data is received from the browser, it will perform the operation in the function onreadystatechange.
+AJAX, asynchronous javascript and XML, isa way to communicate with the server without reloading the page. Typically the browser makes a request to the server using XMLHttpRequest, when the data is received from the browser, it will perform the operation in the function *onreadystatechange*.
 
 ```javascript
 httpRequest = new XMLHttpRequest();
